@@ -21,7 +21,7 @@ export function NewsletterForm() {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "YOUR_ACCESS_KEY_HERE", 
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "e9f73b6f-0e18-478f-9180-c619b4f7a0bd", 
           subject: "New Newsletter Subscription",
           from_name: "CPDF Website",
           email: email,
