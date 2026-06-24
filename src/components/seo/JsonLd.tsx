@@ -12,7 +12,7 @@ export function OrganizationJsonLd() {
     url: SITE_CONFIG.url,
     logo: {
       "@type": "ImageObject",
-      url: `${SITE_CONFIG.url}/images/logo.png`,
+      url: `${SITE_CONFIG.url}/images/cpdf-logo.png`,
       width: 200,
       height: 200,
     },
