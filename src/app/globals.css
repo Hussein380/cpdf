@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── CSS Custom Properties ────────────────────────────────────────────────── */
+:root {
+  --cpdf-blue: #1a5276;
+  --cpdf-teal: #1abc9c;
+  --cpdf-dark: #0b1426;
+  --cpdf-darker: #060d1a;
+}
+
+/* ─── Base Resets ───────────────────────────────────────────────────────────── */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-cpdf-darker text-cpdf-light text-base lg:text-lg;
+    overflow-x: hidden;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-cpdf-darker;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-cpdf-dark-border rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-cpdf-muted;
+  }
+
+  /* Selection */
+  ::selection {
+    background: rgba(26, 188, 156, 0.3);
+    color: white;
+  }
+
+  /* Focus Ring */
+  :focus-visible {
+    @apply outline-none ring-2 ring-cpdf-teal ring-offset-2 ring-offset-cpdf-darker;
+  }
+}
+
+/* ─── Typography ────────────────────────────────────────────────────────────── */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display text-cpdf-light;
+  }
+
+  p {
+    @apply text-cpdf-muted leading-relaxed;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+/* ─── Utility Classes ───────────────────────────────────────────────────────── */
+@layer utilities {
+  .text-gradient-teal {
+    @apply text-cpdf-teal;
+  }
+
+  .text-gradient-hero {
+    @apply text-cpdf-blue;
+  }
+
+  .section-padding {
+    @apply py-20 lg:py-28;
+  }
+
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Glowing border on hover */
+  .glow-border {
+    @apply border border-cpdf-dark-border transition-all duration-300;
+  }
+  .glow-border:hover {
+    @apply border-cpdf-teal/40 shadow-cpdf-glow;
+  }
+
+  /* Animated underline */
+  .animated-underline {
+    @apply relative;
+  }
+  .animated-underline::after {
+    content: "";
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-cpdf-teal transition-all duration-300;
+  }
+  .animated-underline:hover::after {
+    @apply w-full;
+  }
+
+  /* Particle dots background */
+  .dots-bg {
+    background-image: radial-gradient(rgba(26, 188, 156, 0.15) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  /* Grid lines background */
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(26, 188, 156, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26, 188, 156, 0.05) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+}
+
+/* ─── Animations ────────────────────────────────────────────────────────────── */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(3deg); }
+}
+
+@keyframes floatReverse {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(20px) rotate(-3deg); }
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-float-reverse { animation: floatReverse 7s ease-in-out infinite; }
+.animate-float-slow { animation: float 9s ease-in-out 1s infinite; }
