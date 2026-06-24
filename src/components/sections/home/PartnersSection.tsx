@@ -22,12 +22,12 @@ function PartnerCard({ partner }: { partner: Partner }) {
       transition={{ duration: 0.25 }}
     >
       {/* Logo */}
-      <div className="relative w-full h-16 transition-transform duration-300 group-hover:scale-105">
+      <div className="relative w-full h-16 transition-transform duration-300 group-hover:scale-105 bg-white rounded-lg p-2">
         <Image
           src={partner.logo}
           alt={partner.name}
           fill
-          className="object-contain"
+          className="object-contain p-2"
           sizes="200px"
         />
       </div>

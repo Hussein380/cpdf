@@ -43,7 +43,7 @@ function PartnerCard({ partner }: { partner: Partner }) {
       </div>
 
       {/* Logo */}
-      <div className="relative z-10 h-20 w-full mb-6 flex items-center justify-center">
+      <div className="relative z-10 h-20 w-full mb-6 flex items-center justify-center bg-white rounded-xl p-3">
         <div className="relative w-full h-full transition-transform duration-400 group-hover:scale-105">
           <Image
             src={partner.logo}
