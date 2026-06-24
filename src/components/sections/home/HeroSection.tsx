@@ -103,11 +103,14 @@ export function HeroSection() {
         {/* Headline */}
         <SlideUp delay={0.15}>
           <h1 className="font-display font-bold leading-tight mb-6">
-            <span className="block text-4xl sm:text-5xl lg:text-7xl text-white mb-2">
+            <span className="block text-3xl sm:text-5xl lg:text-7xl text-white mb-2 sm:mb-4">
               Bridging Divides,
             </span>
-            <span className="block text-4xl sm:text-5xl lg:text-7xl text-white">
-              Building&nbsp;<RotatingWord />
+            <span className="block text-3xl sm:text-5xl lg:text-7xl text-white">
+              Building{" "}
+              <span className="block sm:inline-block mt-2 sm:mt-0">
+                <RotatingWord />
+              </span>
             </span>
           </h1>
         </SlideUp>
