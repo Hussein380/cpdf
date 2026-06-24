@@ -29,7 +29,7 @@ export interface Partner {
   logo: string;
   website?: string;
   description?: string;
-  category: "media" | "governance" | "civil-society" | "political" | "international";
+  category: "media" | "governance" | "civil-society" | "political" | "international" | "foundation";
 }
 
 // ─── Initiatives ──────────────────────────────────────────────────────────────

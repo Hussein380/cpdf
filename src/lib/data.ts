@@ -149,8 +149,8 @@ export const PARTNERS: Partner[] = [
     name: "Thomson Reuters Foundation",
     logo: "/images/partners/thomson-reuters.png",
     website: "https://www.trust.org/",
-    category: "media",
-    description: "Global media and information services company",
+    category: "foundation",
+    description: "Corporate foundation advancing media freedom, inclusive economies, and human rights",
   },
   {
     id: "open-government-partnership",

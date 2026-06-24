@@ -15,6 +15,7 @@ const categoryLabel: Record<Partner["category"], string> = {
   "civil-society": "Civil Society",
   political: "Political",
   international: "International",
+  foundation: "Foundation",
 };
 
 function PartnerCard({ partner }: { partner: Partner }) {
