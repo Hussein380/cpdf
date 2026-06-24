@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Mail, Phone, Globe, Twitter, Facebook, Instagram } from "lucide-react";
 import { SITE_CONFIG, NAV_LINKS } from "@/lib/constants";
+import { NewsletterForm } from "@/components/ui/NewsletterForm";
 
 const footerLinks = {
   "About CPDF": [
@@ -79,6 +80,9 @@ export function Footer() {
               <SocialLink href={SITE_CONFIG.social.facebook} icon={<Facebook size={16} />} label="Facebook" />
               <SocialLink href={SITE_CONFIG.social.instagram} icon={<Instagram size={16} />} label="Instagram" />
             </div>
+
+            {/* Newsletter Form */}
+            <NewsletterForm />
           </div>
 
           {/* Link Columns */}
