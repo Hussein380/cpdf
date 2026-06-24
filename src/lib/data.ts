@@ -146,9 +146,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
 export const PARTNERS: Partner[] = [
   {
     id: "thomson-reuters",
-    name: "Thomson Reuters",
+    name: "Thomson Reuters Foundation",
     logo: "/images/partners/thomson-reuters.png",
-    website: "https://thomsonreuters.com",
+    website: "https://www.trust.org/",
     category: "media",
     description: "Global media and information services company",
   },
