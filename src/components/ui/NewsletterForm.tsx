@@ -71,7 +71,7 @@ export function NewsletterForm() {
         <button
           type="submit"
           disabled={status === "loading"}
-          className="bg-cpdf-teal hover:bg-[#16a085] text-white px-4 py-2.5 rounded-lg flex items-center justify-center transition-colors disabled:opacity-50"
+          className="bg-cpdf-teal hover:bg-[#003B69] text-white px-4 py-2.5 rounded-lg flex items-center justify-center transition-colors disabled:opacity-50"
         >
           {status === "loading" ? "..." : <Send size={16} />}
         </button>

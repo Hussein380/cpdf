@@ -85,7 +85,7 @@ export function ApproachSection() {
                   className="group flex gap-5 p-5 rounded-xl border border-cpdf-dark-border bg-cpdf-dark-card"
                   whileHover={{
                     x: 6,
-                    borderColor: "rgba(26,188,156,0.3)",
+                    borderColor: "rgba(0,84,148,0.3)",
                     backgroundColor: "rgba(15,30,53,0.9)",
                   }}
                   transition={{ duration: 0.2 }}

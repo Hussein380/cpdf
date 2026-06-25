@@ -72,7 +72,7 @@ export function PartnershipPhilosophy() {
               <StaggerItem key={p.title}>
                 <motion.div
                   className="group flex gap-5 p-6 rounded-xl border border-cpdf-dark-border bg-cpdf-dark-card"
-                  whileHover={{ x: 6, borderColor: "rgba(26,188,156,0.3)" }}
+                  whileHover={{ x: 6, borderColor: "rgba(0,84,148,0.3)" }}
                   transition={{ duration: 0.2 }}
                 >
                   <div className="w-11 h-11 flex items-center justify-center rounded-xl bg-cpdf-teal/10 border border-cpdf-teal/20 text-cpdf-teal shrink-0 group-hover:bg-cpdf-teal/20 group-hover:scale-110 transition-all duration-300">

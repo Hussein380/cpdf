@@ -96,7 +96,7 @@ export function WhoWeAre() {
                 className="group p-6 rounded-2xl border border-cpdf-dark-border bg-cpdf-dark-card h-full"
                 whileHover={{
                   y: -6,
-                  borderColor: "rgba(26,188,156,0.3)",
+                  borderColor: "rgba(0,84,148,0.3)",
                   boxShadow: "0 20px 50px rgba(0,0,0,0.3)",
                 }}
                 transition={{ duration: 0.22 }}

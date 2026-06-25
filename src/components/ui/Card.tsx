@@ -28,8 +28,8 @@ export function Card({ children, className, hover = true, glow = false, onClick 
         hover
           ? {
               y: -6,
-              borderColor: "rgba(26,188,156,0.4)",
-              boxShadow: "0 20px 60px rgba(0,0,0,0.4), 0 0 30px rgba(26,188,156,0.1)",
+              borderColor: "rgba(0,84,148,0.4)",
+              boxShadow: "0 20px 60px rgba(0,0,0,0.4), 0 0 30px rgba(0,84,148,0.1)",
             }
           : undefined
       }

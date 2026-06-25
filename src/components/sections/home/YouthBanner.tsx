@@ -98,7 +98,7 @@ export function YouthBanner() {
                   key={item.num}
                   className="p-5 rounded-xl border border-cpdf-dark-border bg-cpdf-dark-card/60 backdrop-blur-sm"
                   whileHover={{
-                    borderColor: "rgba(26,188,156,0.3)",
+                    borderColor: "rgba(0,84,148,0.3)",
                     y: -3,
                   }}
                   transition={{ duration: 0.2 }}

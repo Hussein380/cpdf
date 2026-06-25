@@ -31,7 +31,7 @@ function LeaderCard({
       transition={{ duration: 0.6, delay: index * 0.12 }}
       whileHover={{
         y: -6,
-        borderColor: "rgba(26,188,156,0.4)",
+        borderColor: "rgba(0,84,148,0.4)",
         boxShadow: "0 24px 64px rgba(0,0,0,0.5)",
       }}
     >

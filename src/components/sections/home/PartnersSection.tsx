@@ -16,7 +16,7 @@ function PartnerCard({ partner }: { partner: Partner }) {
       className="group flex flex-col items-center justify-center gap-4 p-8 rounded-2xl border border-cpdf-dark-border bg-cpdf-dark-card h-44"
       whileHover={{
         y: -6,
-        borderColor: "rgba(26,188,156,0.3)",
+        borderColor: "rgba(0,84,148,0.3)",
         boxShadow: "0 16px 50px rgba(0,0,0,0.35)",
       }}
       transition={{ duration: 0.25 }}

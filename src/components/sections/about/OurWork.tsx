@@ -56,7 +56,7 @@ export function OurWork() {
               transition={{ duration: 0.6, delay: i * 0.15 }}
               whileHover={{
                 y: -6,
-                borderColor: "rgba(26,188,156,0.35)",
+                borderColor: "rgba(0,84,148,0.35)",
                 boxShadow: "0 20px 60px rgba(0,0,0,0.4)",
               }}
             >

@@ -13,9 +13,9 @@ const config: Config = {
           blue: "#005494",
           "blue-light": "#0073C4",
           "blue-dark": "#003B69",
-          teal: "#00C2A8",
-          "teal-light": "#33E0CA",
-          "teal-dark": "#008C79",
+          teal: "#005494",
+          "teal-light": "#0073C4",
+          "teal-dark": "#003B69",
           dark: "#F8FAFC",
           darker: "#FFFFFF",
           "dark-card": "#FFFFFF",
@@ -30,8 +30,8 @@ const config: Config = {
       },
       backgroundImage: {
         "gradient-cpdf": "linear-gradient(135deg, #0B1426 0%, #0D2B3E 50%, #0B1426 100%)",
-        "gradient-hero": "linear-gradient(135deg, #060D1A 0%, #0D2B3E 40%, #148F77 100%)",
-        "gradient-teal": "linear-gradient(135deg, #1ABC9C 0%, #148F77 100%)",
+        "gradient-hero": "linear-gradient(135deg, #060D1A 0%, #0D2B3E 40%, #005494 100%)",
+        "gradient-teal": "linear-gradient(135deg, #0073C4 0%, #005494 100%)",
         "gradient-card": "linear-gradient(135deg, #0F1E35 0%, #0D2B3E 100%)",
       },
       animation: {
@@ -53,7 +53,7 @@ const config: Config = {
         },
       },
       boxShadow: {
-        "cpdf-glow": "0 0 40px rgba(26, 188, 156, 0.15)",
+        "cpdf-glow": "0 0 40px rgba(0, 84, 148, 0.15)",
         "cpdf-glow-blue": "0 0 40px rgba(26, 82, 118, 0.3)",
         "card-hover": "0 20px 60px rgba(0, 0, 0, 0.4)",
       },

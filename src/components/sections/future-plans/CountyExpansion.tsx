@@ -94,9 +94,9 @@ export function CountyExpansion() {
                   <motion.div
                     className="flex items-center gap-1.5 px-3 py-2 rounded-full border border-cpdf-dark-border bg-cpdf-dark-card text-cpdf-muted text-sm"
                     whileHover={{
-                      borderColor: "rgba(26,188,156,0.4)",
-                      color: "#1ABC9C",
-                      backgroundColor: "rgba(26,188,156,0.08)",
+                      borderColor: "rgba(0,84,148,0.4)",
+                      color: "#005494",
+                      backgroundColor: "rgba(0,84,148,0.08)",
                       scale: 1.05,
                     }}
                     transition={{ duration: 0.15 }}

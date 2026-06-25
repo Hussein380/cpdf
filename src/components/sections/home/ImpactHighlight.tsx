@@ -62,7 +62,7 @@ export function ImpactHighlight() {
                   className="flex items-start gap-4 p-4 rounded-xl border border-cpdf-dark-border bg-cpdf-dark-card group"
                   whileHover={{
                     x: 6,
-                    borderColor: "rgba(26,188,156,0.3)",
+                    borderColor: "rgba(0,84,148,0.3)",
                     backgroundColor: "rgba(15,30,53,0.9)",
                   }}
                   transition={{ duration: 0.2 }}

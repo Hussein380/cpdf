@@ -79,7 +79,7 @@ export function AchievementsSection() {
                 className="group relative flex flex-col p-6 rounded-2xl border border-cpdf-dark-border bg-cpdf-dark-card h-full overflow-hidden"
                 whileHover={{
                   y: -6,
-                  borderColor: "rgba(26,188,156,0.35)",
+                  borderColor: "rgba(0,84,148,0.35)",
                   boxShadow: "0 20px 60px rgba(0,0,0,0.4)",
                 }}
                 transition={{ duration: 0.22 }}

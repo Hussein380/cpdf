@@ -76,7 +76,7 @@ export function HeroSection() {
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full w-auto h-auto object-cover pointer-events-none"
       >
         <source src="/assets/vid.mp4" type="video/mp4" />
       </video>
@@ -91,7 +91,7 @@ export function HeroSection() {
         <FadeIn>
           <motion.div
             className="inline-flex items-center gap-2 bg-cpdf-teal/20 border border-cpdf-teal/30 rounded-full px-5 py-2 mb-8 backdrop-blur-sm"
-            whileHover={{ scale: 1.03, borderColor: "rgba(26,188,156,0.6)" }}
+            whileHover={{ scale: 1.03, borderColor: "rgba(0,84,148,0.6)" }}
           >
             <span className="w-2 h-2 rounded-full bg-cpdf-teal animate-pulse" />
             <span className="text-cpdf-teal text-sm font-semibold tracking-wide text-white">

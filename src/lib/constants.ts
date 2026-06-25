@@ -53,9 +53,9 @@ export const BRAND_COLORS = {
   blue: "#005494",
   blueLight: "#0073C4",
   blueDark: "#003B69",
-  teal: "#00C2A8",
-  tealLight: "#33E0CA",
-  tealDark: "#008C79",
+  teal: "#005494",
+  tealLight: "#0073C4",
+  tealDark: "#003B69",
   dark: "#F8FAFC",
   darker: "#FFFFFF",
 } as const;
