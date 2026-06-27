@@ -16,42 +16,10 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === "production",
   },
 
-  // ─── Output ───────────────────────────────────────────────────────────────────
-  // "standalone" bundles only what's needed — ideal for Vercel / Docker
-  output: "standalone",
-
   // ─── Performance ──────────────────────────────────────────────────────────────
   experimental: {
     optimizeCss: true,
     optimizePackageImports: ["framer-motion", "lucide-react"],
-  },
-
-  // ─── Headers ──────────────────────────────────────────────────────────────────
-  // Minimal headers here — full set is in vercel.json
-  async headers() {
-    return [
-      {
-        source: "/(.*)",
-        headers: [
-          { key: "X-DNS-Prefetch-Control", value: "on" },
-        ],
-      },
-    ];
-  },
-
-  // ─── Redirects ────────────────────────────────────────────────────────────────
-  // Canonical domain redirect — forces www → non-www in production
-  async redirects() {
-    return process.env.NODE_ENV === "production"
-      ? [
-          {
-            source: "/(.*)",
-            has: [{ type: "host", value: "www.cpdforum.org" }],
-            destination: "https://cpdforum.org/:path*",
-            permanent: true,
-          },
-        ]
-      : [];
   },
 };
 

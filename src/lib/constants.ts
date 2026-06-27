@@ -8,7 +8,7 @@ export const SITE_CONFIG = {
   tagline: "Bridging Divides, Building Democracy",
   description:
     "A non-partisan organization dedicated to promoting democratic governance, political inclusivity, and electoral integrity in Kenya.",
-  url: "https://cpdforum.org",
+  url: "https://www.cpdforum.org",
   email: "info@cpdforum.org",
   emailAlt: "cpdfkenya@gmail.com",
   phone: "0207858980",
