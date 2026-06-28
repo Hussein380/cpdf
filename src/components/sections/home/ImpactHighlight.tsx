@@ -43,7 +43,7 @@ export function ImpactHighlight() {
             <SlideIn direction="left" delay={0.2}>
               <p className="text-cpdf-muted text-lg leading-relaxed mb-8">
                 Since our founding, CPDF has worked tirelessly to transform Kenya&apos;s
-                democratic landscape — one dialogue, one training, one reform at a time.
+                democratic landscape, one dialogue, one training, one reform at a time.
               </p>
             </SlideIn>
 

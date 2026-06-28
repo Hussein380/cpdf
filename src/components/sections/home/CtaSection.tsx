@@ -41,7 +41,7 @@ export function CtaSection() {
         <SlideUp delay={0.2}>
           <p className="text-cpdf-muted text-xl leading-relaxed mb-10 max-w-2xl mx-auto">
             Whether you&apos;re a young leader, political party member, or civic
-            activist — CPDF has a role for you in building a stronger democracy.
+            activist, CPDF has a role for you in building a stronger democracy.
           </p>
         </SlideUp>
 
