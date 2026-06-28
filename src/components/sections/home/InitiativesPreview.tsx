@@ -67,16 +67,7 @@ function InitiativeCard({ initiative, index }: { initiative: Initiative; index: 
         {initiative.description}
       </p>
 
-      {/* Arrow */}
-      <div className="relative z-10 mt-5 flex items-center gap-1 text-cpdf-teal/60 group-hover:text-cpdf-teal text-sm font-medium transition-colors duration-200">
-        <span>Learn more</span>
-        <motion.span
-          animate={{ x: 0 }}
-          whileHover={{ x: 4 }}
-        >
-          <ArrowRight size={14} />
-        </motion.span>
-      </div>
+
     </motion.div>
   );
 }
