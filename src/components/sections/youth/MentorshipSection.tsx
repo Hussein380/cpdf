@@ -63,7 +63,7 @@ export function MentorshipSection() {
             </SlideIn>
           </div>
 
-          {/* Right — benefits */}
+          {/* Right, benefits */}
           <StaggerContainer className="space-y-4" staggerDelay={0.1}>
             {benefits.map((benefit) => (
               <StaggerItem key={benefit.title}>

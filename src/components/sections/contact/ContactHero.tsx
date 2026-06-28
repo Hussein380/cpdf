@@ -28,7 +28,7 @@ export function ContactHero() {
         <SlideUp delay={0.2}>
           <p className="text-cpdf-muted text-xl leading-relaxed max-w-2xl mx-auto">
             Whether you&apos;re interested in partnerships, programs, volunteering,
-            or just want to learn more about CPDF — we&apos;d love to hear from you.
+            or just want to learn more about CPDF, we&apos;d love to hear from you.
           </p>
         </SlideUp>
       </div>

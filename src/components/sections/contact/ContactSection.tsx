@@ -92,7 +92,7 @@ function ContactForm() {
     const errs = validate();
     if (Object.keys(errs).length) { setErrors(errs); return; }
     setLoading(true);
-    // Simulated submit — replace with real API call or mailto
+    // Simulated submit, replace with real API call or mailto
     await new Promise((r) => setTimeout(r, 1200));
     setLoading(false);
     setSubmitted(true);
@@ -194,7 +194,7 @@ export function ContactSection() {
       <div className="relative z-10 max-w-7xl mx-auto container-padding">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
 
-          {/* Left — info */}
+          {/* Left, info */}
           <div className="lg:col-span-2 space-y-10">
             {/* Contact details */}
             <div>
@@ -257,7 +257,7 @@ export function ContactSection() {
             </div>
           </div>
 
-          {/* Right — form */}
+          {/* Right, form */}
           <div className="lg:col-span-3">
             <FadeIn delay={0.15}>
               <div className="p-8 rounded-2xl border border-cpdf-dark-border bg-cpdf-dark-card">

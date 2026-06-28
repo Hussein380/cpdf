@@ -81,7 +81,7 @@ export function YouthBanner() {
             </SlideIn>
           </div>
 
-          {/* Right — feature grid with Image */}
+          {/* Right, feature grid with Image */}
           <SlideIn direction="right" delay={0.2}>
             <div className="flex flex-col gap-6">
               <div className="relative h-64 w-full rounded-2xl overflow-hidden border border-cpdf-dark-border shadow-2xl">

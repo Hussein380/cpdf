@@ -34,7 +34,7 @@ export function YouthCta() {
         <SlideUp delay={0.2}>
           <p className="text-cpdf-muted text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
             Whether you&apos;re a student, young professional, or aspiring political
-            leader — CPDF&apos;s youth program has a place for you. Apply today and
+            leader, CPDF&apos;s youth program has a place for you. Apply today and
             join over 5,000 young Kenyans already making a difference.
           </p>
         </SlideUp>

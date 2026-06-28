@@ -9,7 +9,7 @@ import {
 export const metadata = generatePageMetadata({
   title: "What We Do",
   description:
-    "Explore CPDF's eight initiatives driving democratic reform in Kenya — from facilitating cross-party dialogues to leveraging technology for youth civic engagement.",
+    "Explore CPDF's eight initiatives driving democratic reform in Kenya. from facilitating cross-party dialogues to leveraging technology for youth civic engagement.",
   keywords: ["CPDF initiatives", "democracy Kenya", "political reform", "civic engagement"],
   canonicalPath: "/what-we-do",
 });

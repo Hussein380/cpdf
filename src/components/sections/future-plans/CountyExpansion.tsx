@@ -42,7 +42,7 @@ export function CountyExpansion() {
             <SlideIn direction="left" delay={0.2}>
               <p className="text-cpdf-muted text-lg leading-relaxed mb-4">
                 CPDF&apos;s expansion plan targets 24 strategic counties across Kenya
-                for ICT centre and democracy centre development — ensuring no region
+                for ICT centre and democracy centre development, ensuring no region
                 is left behind in the democratic journey.
               </p>
             </SlideIn>
@@ -79,7 +79,7 @@ export function CountyExpansion() {
             </SlideIn>
           </div>
 
-          {/* Right — county chips */}
+          {/* Right, county chips */}
           <div>
             <FadeIn delay={0.2}>
               <p className="text-cpdf-muted text-sm mb-5 flex items-center gap-2">

@@ -115,7 +115,7 @@ export function Footer() {
             © {currentYear} {SITE_CONFIG.name}. All rights reserved.
           </p>
           <p className="text-cpdf-muted text-xs">
-            Bridging Divides, Building Democracy — Kenya
+            Bridging Divides, Building Democracy, Kenya
           </p>
         </div>
       </div>

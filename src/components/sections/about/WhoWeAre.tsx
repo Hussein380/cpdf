@@ -9,7 +9,7 @@ const pillars = [
   {
     icon: <Users size={22} />,
     title: "Cross-Party Engagement",
-    desc: "CPDF has engaged with over 20 political parties in Kenya, facilitating cross-party dialogue and cooperation on key democratic reforms.",
+    desc: "CPDF has engaged with over 20 political parties in Kenya. facilitating cross-party dialogue and cooperation on key democratic reforms.",
   },
   {
     icon: <Globe size={22} />,
@@ -53,13 +53,13 @@ export function WhoWeAre() {
             <SlideIn direction="left" delay={0.3}>
               <p className="text-cpdf-muted text-lg leading-relaxed">
                 Our efforts focus on ensuring that democracy is participatory, inclusive,
-                and accountable to the people of Kenya, from grassroots communities to
+                and accountable to the people of Kenya. from grassroots communities to
                 national leadership.
               </p>
             </SlideIn>
           </div>
 
-          {/* Right — Image and quote card */}
+          {/* Right, Image and quote card */}
           <SlideIn direction="right" delay={0.15}>
             <div className="relative rounded-2xl border border-cpdf-dark-border overflow-hidden">
               <div className="relative h-64 w-full">

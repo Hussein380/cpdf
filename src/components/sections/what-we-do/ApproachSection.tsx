@@ -61,7 +61,7 @@ export function ApproachSection() {
             <SlideIn direction="left" delay={0.2}>
               <p className="text-cpdf-muted text-lg leading-relaxed mb-8">
                 Our four-step approach ensures that every program creates lasting
-                impact — from the first dialogue to long-term policy reform.
+                impact, from the first dialogue to long-term policy reform.
               </p>
             </SlideIn>
             <SlideIn direction="left" delay={0.3}>
@@ -76,7 +76,7 @@ export function ApproachSection() {
             </SlideIn>
           </div>
 
-          {/* Right — steps */}
+          {/* Right, steps */}
           <StaggerContainer className="space-y-4" staggerDelay={0.1}>
             {steps.map((step) => (
               <StaggerItem key={step.step}>

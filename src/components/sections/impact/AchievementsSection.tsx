@@ -10,7 +10,7 @@ const achievements = [
     icon: <Trophy size={22} />,
     title: "High-Level Cross-Party Dialogues",
     description:
-      "Facilitated 50+ cross-party dialogues on governance, electoral integrity, and democratic development — bringing rival political parties to the same table.",
+      "Facilitated 50+ cross-party dialogues on governance, electoral integrity, and democratic development, bringing rival political parties to the same table.",
     metric: "50+",
     metricLabel: "Dialogues",
   },

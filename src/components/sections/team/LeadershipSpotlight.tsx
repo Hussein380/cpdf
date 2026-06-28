@@ -8,7 +8,7 @@ import { SlideIn, FadeIn } from "@/components/animations";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 
-// Leadership tier — first 3
+// Leadership tier, first 3
 const leaders = TEAM_MEMBERS.slice(0, 3);
 
 function LeaderCard({

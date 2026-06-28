@@ -34,7 +34,7 @@ export function RoadmapSection() {
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
-          {/* Left — step list */}
+          {/* Left, step list */}
           <div className="lg:col-span-2 space-y-3">
             {FUTURE_PLANS.map((plan) => (
               <FadeIn key={plan.id} delay={plan.step * 0.07}>
@@ -73,7 +73,7 @@ export function RoadmapSection() {
             ))}
           </div>
 
-          {/* Right — detail panel */}
+          {/* Right, detail panel */}
           <div className="lg:col-span-3">
             <AnimatePresence mode="wait">
               <motion.div

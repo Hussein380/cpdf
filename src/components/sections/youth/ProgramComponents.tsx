@@ -77,7 +77,7 @@ export function ProgramComponents() {
         <SectionHeader
           eyebrow="Program Structure"
           title="Six Components, One Powerful Program"
-          description="Each component targets a specific barrier to youth democratic participation — together they create a comprehensive pathway to civic leadership."
+          description="Each component targets a specific barrier to youth democratic participation, together they create a comprehensive pathway to civic leadership."
           className="mb-14"
         />
 

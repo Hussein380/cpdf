@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 /**
  * Returns true if the given media query matches.
- * SSR-safe — returns false on the server.
+ * SSR-safe, returns false on the server.
  */
 export function useMediaQuery(query: string): boolean {
   const [matches, setMatches] = useState(false);

@@ -24,7 +24,7 @@ export function ImpactHighlight() {
       <div className="max-w-7xl mx-auto container-padding">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-          {/* Left — text */}
+          {/* Left, text */}
           <div>
             <SlideIn direction="left">
               <span className="inline-flex items-center gap-2 text-cpdf-teal text-sm font-semibold tracking-widest uppercase mb-5">
@@ -53,7 +53,7 @@ export function ImpactHighlight() {
             </SlideIn>
           </div>
 
-          {/* Right — achievement list */}
+          {/* Right, achievement list */}
           <div className="space-y-4">
             {achievements.map((item, i) => (
               <FadeIn key={i} delay={i * 0.08}>

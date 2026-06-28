@@ -35,7 +35,7 @@ export function InitiativesHero() {
         <SlideUp delay={0.2}>
           <p className="text-cpdf-muted text-xl leading-relaxed max-w-2xl mx-auto">
             From facilitating cross-party dialogues to leveraging digital tools for
-            civic engagement — every initiative drives Kenya closer to a truly
+            civic engagement, every initiative drives Kenya closer to a truly
             participatory democracy.
           </p>
         </SlideUp>

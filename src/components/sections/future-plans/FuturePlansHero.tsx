@@ -24,7 +24,7 @@ export function FuturePlansHero() {
         <FadeIn>
           <div className="inline-flex items-center gap-2 bg-cpdf-teal/10 border border-cpdf-teal/20 rounded-full px-5 py-2 mb-6">
             <Rocket size={14} className="text-cpdf-teal" />
-            <span className="text-cpdf-teal text-sm font-semibold">2025 — 2027</span>
+            <span className="text-cpdf-teal text-sm font-semibold">2025 - 2027</span>
           </div>
         </FadeIn>
         <SlideUp delay={0.1}>
@@ -35,8 +35,7 @@ export function FuturePlansHero() {
         </SlideUp>
         <SlideUp delay={0.2}>
           <p className="text-cpdf-muted text-xl leading-relaxed max-w-2xl mx-auto">
-            Six ambitious plans to expand CPDF&apos;s infrastructure, reach, and impact
-            — from ICT centres across 24 counties to international partnerships and
+            Six ambitious plans to expand CPDF&apos;s infrastructure, reach, and impact, from ICT centres across 24 counties to international partnerships and
             digital civic platforms.
           </p>
         </SlideUp>
