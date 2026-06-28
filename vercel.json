@@ -97,6 +97,11 @@
       "source": "/get-involved",
       "destination": "/contact",
       "permanent": true
+    },
+    {
+      "source": "/webmail",
+      "destination": "https://server54.web-hosting.com:2096/",
+      "permanent": false
     }
   ],
 
