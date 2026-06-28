@@ -53,8 +53,8 @@ export function WhoWeAre() {
             <SlideIn direction="left" delay={0.3}>
               <p className="text-cpdf-muted text-lg leading-relaxed">
                 Our efforts focus on ensuring that democracy is participatory, inclusive,
-                and accountable to the people of Kenya — from grassroots communities to
-                the highest levels of government.
+                and accountable to the people of Kenya, from grassroots communities to
+                national leadership.
               </p>
             </SlideIn>
           </div>

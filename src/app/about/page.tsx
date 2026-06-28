@@ -11,7 +11,7 @@ import {
 export const metadata = generatePageMetadata({
   title: "About Us",
   description:
-    "Learn about the Cross Party Democracy Forum — a non-partisan organization dedicated to promoting democratic governance, political inclusivity, and electoral integrity in Kenya.",
+    "Learn about the Cross Party Democracy Forum, a non-partisan organization dedicated to promoting democratic governance, political inclusivity, and electoral integrity in Kenya.",
   keywords: ["about CPDF", "Kenya democracy organization", "non-partisan Kenya"],
   canonicalPath: "/about",
 });

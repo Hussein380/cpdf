@@ -11,7 +11,7 @@ const cards = [
     label: "Our Vision",
     title: "Positively nourish the mindset to empower future generations.",
     description:
-      "We envision a Kenya where every citizen — regardless of political affiliation, gender, or background — is empowered to participate meaningfully in governance and shape the nation's democratic future.",
+      "We envision a Kenya where every citizen, regardless of political affiliation, gender, or background, is empowered to participate meaningfully in governance and shape the nation's democratic future.",
     gradient: "from-cpdf-blue/20 to-transparent",
     border: "border-cpdf-blue/30",
     iconBg: "bg-cpdf-blue/20 border-cpdf-blue/30 text-cpdf-blue-light",
