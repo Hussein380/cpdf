@@ -85,7 +85,7 @@ export function YouthBanner() {
           <SlideIn direction="right" delay={0.2}>
             <div className="flex flex-col gap-6">
               <div className="relative h-64 w-full rounded-2xl overflow-hidden border border-cpdf-dark-border shadow-2xl">
-                <Image src="/assets/ai-images/ke1.jpeg" alt="Empowering Youth" fill className="object-cover" unoptimized={true} />
+                <Image src="/assets/youth_e.jpeg" alt="Empowering Youth" fill className="object-cover" unoptimized={true} />
               </div>
               <div className="grid grid-cols-2 gap-4">
               {[
