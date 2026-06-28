@@ -110,7 +110,7 @@ export function TeamGrid() {
         <SectionHeader
           eyebrow="Full Team"
           title="Everyone Who Makes It Happen"
-          description="Across programs, legal, digital, communications, and operations — meet the full team driving CPDF's mission."
+          description="Across programs, legal, digital, communications, and operations, meet the full team driving CPDF's mission."
           className="mb-10"
         />
 

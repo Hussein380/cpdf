@@ -89,7 +89,7 @@ export function PartnerGrid() {
         <SectionHeader
           eyebrow="Our Partners"
           title="Organizations We Work With"
-          description="Each partner brings unique expertise and reach — together we create compounding democratic impact across Kenya and beyond."
+          description="Each partner brings unique expertise and reach, together we create compounding democratic impact across Kenya and beyond."
           className="mb-14"
         />
 

@@ -10,7 +10,7 @@ const principles = [
     icon: <Handshake size={22} />,
     title: "Mutual Accountability",
     description:
-      "Every partnership is built on clear, shared goals and transparent reporting — ensuring both CPDF and its partners deliver real value.",
+      "Every partnership is built on clear, shared goals and transparent reporting, ensuring both CPDF and its partners deliver real value.",
   },
   {
     icon: <Globe size={22} />,
@@ -22,7 +22,7 @@ const principles = [
     icon: <TrendingUp size={22} />,
     title: "Compounding Impact",
     description:
-      "Strategic partnerships don't just add resources — they multiply outcomes, enabling CPDF to reach further and impact deeper.",
+      "Strategic partnerships don't just add resources, they multiply outcomes, enabling CPDF to reach further and impact deeper.",
   },
 ];
 
@@ -53,7 +53,7 @@ export function PartnershipPhilosophy() {
             </SlideIn>
             <SlideIn direction="left" delay={0.2}>
               <p className="text-cpdf-muted text-lg leading-relaxed mb-8">
-                We don&apos;t seek partners for funding alone — we seek organisations
+                We don&apos;t seek partners for funding alone, we seek organisations
                 that share our commitment to democratic governance, youth empowerment, and
                 lasting institutional change in Kenya.
               </p>

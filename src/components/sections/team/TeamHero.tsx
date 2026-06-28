@@ -36,7 +36,7 @@ export function TeamHero() {
         <SlideUp delay={0.2}>
           <p className="text-slate-300 text-xl leading-relaxed max-w-2xl mx-auto">
             A passionate, multidisciplinary team of {TEAM_MEMBERS.length} professionals
-            united by one purpose — building a stronger, more inclusive Kenyan democracy.
+            united by one purpose, building a stronger, more inclusive Kenyan democracy.
           </p>
         </SlideUp>
         <FadeIn delay={0.4}>
