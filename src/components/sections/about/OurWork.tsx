@@ -34,7 +34,6 @@ export function OurWork() {
       <div className="max-w-7xl mx-auto container-padding">
         <FadeIn>
           <span className="inline-flex items-center gap-2 text-cpdf-teal text-sm font-semibold tracking-widest uppercase mb-5">
-            <span className="w-8 h-px bg-cpdf-teal" />
             How We Work
           </span>
         </FadeIn>

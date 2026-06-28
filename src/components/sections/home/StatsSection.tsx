@@ -91,9 +91,7 @@ export function StatsSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <span className="w-8 h-px bg-cpdf-teal" />
             Our Impact in Numbers
-            <span className="w-8 h-px bg-cpdf-teal" />
           </motion.span>
 
           <motion.h2

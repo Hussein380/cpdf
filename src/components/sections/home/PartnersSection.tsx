@@ -59,9 +59,7 @@ export function PartnersSection() {
         <div className="text-center mb-12">
           <FadeIn>
             <span className="inline-flex items-center gap-2 text-cpdf-teal text-sm font-semibold tracking-widest uppercase mb-4">
-              <span className="w-8 h-px bg-cpdf-teal" />
               Trusted Partners
-              <span className="w-8 h-px bg-cpdf-teal" />
             </span>
           </FadeIn>
           <SlideUp delay={0.1}>
