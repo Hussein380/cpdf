@@ -7,7 +7,7 @@ import { NewsletterForm } from "@/components/ui/NewsletterForm";
 const footerLinks = {
   "About CPDF": [
     { label: "About Us", href: "/about" },
-    { label: "Our Team", href: "/team" },
+    // { label: "Our Team", href: "/team" }, // Temporarily hidden until members are updated
     { label: "Core Values", href: "/about#values" },
     { label: "Future Plans", href: "/future-plans" },
   ],

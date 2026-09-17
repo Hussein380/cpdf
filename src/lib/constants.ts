@@ -29,7 +29,7 @@ export const NAV_LINKS: NavLink[] = [
     href: "/about",
     children: [
       { label: "About Us", href: "/about" },
-      { label: "Our Team", href: "/team" },
+      // { label: "Our Team", href: "/team" }, // Temporarily hidden until members are updated
       { label: "Our Partners", href: "/partners" },
     ],
   },
