@@ -14,7 +14,7 @@ export const SITE_CONFIG = {
   phone: "0207858980",
   social: {
     twitter: "https://twitter.com/cpdfkenya",
-    facebook: "https://facebook.com/CPDFORUM",
+    facebook: "https://www.facebook.com/share/1A6K8y9ETb/",
     instagram: "https://instagram.com/cpdfKenya",
   },
   foundedYear: 2020,
